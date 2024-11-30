@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import NavbarComp from "./components/navbar/navbar-comp";
+import BodyComp from "./components/body/body-comp";
+import FooterComp from "./components/footer/footer-comp";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <>
+        <nav className="navbar-element">
+          <NavbarComp />
+        </nav>
+
+        <section className="body-element">
+          <BodyComp />
+        </section>
+
+        <footer className="footer-element">
+          <FooterComp />
+        </footer>
+      </>
+  )
 }
 
 export default App;

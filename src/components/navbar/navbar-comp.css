@@ -1,0 +1,24 @@
+.navbar-default {
+    width: 50%;
+    height: 100px;
+    background-color: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navbar-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar-g-button {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-switch-button {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
